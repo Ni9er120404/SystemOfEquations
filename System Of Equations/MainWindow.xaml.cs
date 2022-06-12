@@ -87,10 +87,10 @@ namespace System_Of_Equations
     }
     internal class SystemOfEquations
     {
-        public float X { get; set; }
-        public float Y { get; set; }
-        public float Z { get; set; }
-        public float[] Vs { get; set; } = new float[12];
+        private float X { get; set; }
+        private float Y { get; set; }
+        private float Z { get; set; }
+        private float[] Vs { get; set; } = new float[12];
 
         public SystemOfEquations(string str_1)
         {
