@@ -1,0 +1,26 @@
+﻿<Window x:Class="System_Of_Equations.MainWindow" 
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"  
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" 
+        Title="SystemOfEquations" Height="700" Width="450">
+    <Grid Margin="0,0,0,-6">
+        <Button x:Name="Button_1" Content="1" HorizontalAlignment="Left" Margin="10,444,0,0" VerticalAlignment="Top" Width="100" Height="100" Click="Button_1_Click"/>
+        <Button x:Name="Button_0" Content="0" HorizontalAlignment="Left" Margin="115,549,0,0" VerticalAlignment="Top" Width="100" Height="100" Click="Button_0_Click"/>
+        <Button x:Name="Button_9" Content="9" HorizontalAlignment="Left" Margin="220,234,0,0" VerticalAlignment="Top" Width="100" Height="100" Click="Button_9_Click"/>
+        <Button x:Name="Button_2" Content="2" HorizontalAlignment="Left" Margin="115,444,0,0" VerticalAlignment="Top" Width="100" Height="100" Click="Button_2_Click"/>
+        <Button x:Name="Button_3" Content="3" HorizontalAlignment="Left" Margin="220,444,0,0" VerticalAlignment="Top" Width="100" Height="100" Click="Button_3_Click"/>
+        <Button x:Name="Button_8" Content="8" HorizontalAlignment="Left" Margin="115,234,0,0" VerticalAlignment="Top" Width="100" Height="100" Click="Button_8_Click"/>
+        <Button x:Name="Button_6" Content="6" HorizontalAlignment="Left" Margin="220,339,0,0" VerticalAlignment="Top" Width="100" Height="100" Click="Button_6_Click"/>
+        <Button x:Name="Button" Content="Пробел" HorizontalAlignment="Left" Margin="10,549,0,0" VerticalAlignment="Top" Height="100" Width="100" Click="Button_Click"/>
+        <Button x:Name="Button_10" Content="+/-" HorizontalAlignment="Left" Margin="220,549,0,0" VerticalAlignment="Top" Width="100" Height="100" Click="Button_10_Click"/>
+        <Button x:Name="Button_7" Content="7" HorizontalAlignment="Left" Margin="10,235,0,0" VerticalAlignment="Top" Width="100" Height="99" Click="Button_7_Click"/>
+        <Button x:Name="Button_5" Content="5" HorizontalAlignment="Left" Margin="115,339,0,0" VerticalAlignment="Top" Width="100" Height="100" Click="Button_5_Click"/>
+        <Button x:Name="Button_4" Content="4" HorizontalAlignment="Left" Margin="10,339,0,0" VerticalAlignment="Top" Width="100" Height="100" Click="Button_4_Click"/>
+        <Button x:Name="Button_12" Content="=" HorizontalAlignment="Left" Margin="325,444,0,0" VerticalAlignment="Top" Width="100" Height="205" Click="Button_12_Click"/>
+        <Button x:Name="Button_11" Content="С" HorizontalAlignment="Left" Margin="325,234,0,0" VerticalAlignment="Top" Width="100" Height="204" Click="Button_11_Click"/>
+        <TextBox x:Name="TextBox" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="415" Height="219"/>
+
+    </Grid>
+</Window> 
